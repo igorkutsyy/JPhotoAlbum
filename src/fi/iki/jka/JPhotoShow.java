@@ -33,6 +33,12 @@ public class JPhotoShow extends JFrame {
     public static final String A_NEXT = "next";
     public static final String A_PREV = "prev";
     public static final String A_EXIT = "exit";
+
+
+    public  JPhotoShow(){
+
+
+    }
     
     public JPhotoShow(JPhotoCollection photos) {
         this(photos, 5000, null);
